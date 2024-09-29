@@ -1,0 +1,49 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(253, 221, 226);
+}
+.container {
+    background-color: white;
+    border: 2px solid black;
+    justify-content: center;
+    width: 45%;
+    margin: 10% auto;
+    padding: 50px;
+    border-radius: 20px;
+    border-style: none;
+}
+.img-one {
+    background: url(omlete.jpg) no-repeat top/cover;
+    width: 600px;
+    height: 300px;
+    border-radius: 20px;
+}
+.prep-time {
+    border: 2px solid black;
+    padding: 20px;
+    padding-top: 10px;
+    background-color: rgb(253, 221, 226);
+    border-radius: 15px;
+    border-style: none;
+}
+span {
+    color: rgb(70, 23, 31);
+}
+.Ingredients {
+    border-bottom: 1px outset black;
+}
+.instruct {
+    border-bottom: 1px outset black;
+}
+table {
+    border-collapse:collapse;
+    width: 90%;
+    height: 30%;
+    border: none;
+   
+}
+table tr td {
+    border-bottom: 1px outset lightslategrey;
+    padding: 10px;
+}
